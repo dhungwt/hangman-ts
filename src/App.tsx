@@ -27,7 +27,9 @@ const [guessedLetters, setGuessedLetters] = useState <string[]>([])
         </div>
         <HangmanDrawing />
         <HangmanWord />
+        <div style={{alignSelf: "stretch"}}>
         <Keyboard />
+        </div>
       </div>
       
   )
